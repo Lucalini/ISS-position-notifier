@@ -9,8 +9,8 @@ client = Client(account_sid, auth_token)
 x=5
 while x ==5:
 
-    MY_LAT= 34.158710
-    MY_LONG= -118.246580
+    MY_LAT= REDACTED
+    MY_LONG= REDACTED
     response = requests.get(url="http://api.open-notify.org/iss-now.json")
     response.raise_for_status()
 
